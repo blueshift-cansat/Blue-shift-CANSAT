@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,14 +9,23 @@
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
+
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <a class="brand" href="#home" aria-label="CanSat team homepage">
       <span class="brand-mark">◉</span>
-      <span><strong>BLUE SHIFT</strong><small>UK CANSAT PROJECT</small></span>
+      <span>
+        <strong>BLUE SHIFT</strong>
+        <small>UK CANSAT PROJECT</small>
+      </span>
     </a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span>☰</span></button>
+
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+      Menu <span>☰</span>
+    </button>
+
     <nav id="site-nav" class="site-nav" aria-label="Main navigation">
       <a href="#missions">Missions</a>
       <a href="#progress">Progress</a>
@@ -26,68 +36,173 @@
   </header>
 
   <main id="main">
+
+    <!-- HERO -->
     <section id="home" class="hero">
       <div class="hero-grid"></div>
+
       <div class="hero-copy">
-        <p class="eyebrow"><span class="live-dot"></span> OUR ENGINEERING JOURNEY · 2026–27</p>
-        <h1>Blue Shift<br><span>Moving the frame of reference.</span></h1>
-        <p class="hero-intro">We’re a KCLMS student team in the CanSat Competition. Follow the ideas, decisions, experiments and people behind our mission.</p>
+        <p class="eyebrow">
+          <span class="live-dot"></span>
+          OUR ENGINEERING JOURNEY · 2026–27
+        </p>
+
+        <h1>
+          Blue Shift<br>
+          <span>Moving the frame of reference.</span>
+        </h1>
+
+        <p class="hero-intro">
+          We’re a KCLMS student team in the CanSat Competition.
+          Follow the ideas, decisions, experiments and people behind our mission.
+        </p>
+
         <div class="hero-actions">
-          <a class="button button-primary" href="#missions">Explore our missions <span>↗</span></a>
-          <a class="button button-quiet" href="#progress">Follow our progress ↓</a>
+          <a class="button button-primary" href="#missions">
+            Explore our missions <span>↗</span>
+          </a>
+          <a class="button button-quiet" href="#progress">
+            Follow our progress ↓
+          </a>
         </div>
+
         <div class="hero-meta">
           <div><span class="meta-number">01</span><span>Design</span></div>
           <div><span class="meta-number">02</span><span>Build & test</span></div>
           <div><span class="meta-number">03</span><span>Launch & learn</span></div>
         </div>
       </div>
+
       <div class="hero-art" aria-label="Stylised illustration of a small satellite above Earth">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="planet"><div class="planet-shine"></div><div class="planet-land land-one"></div><div class="planet-land land-two"></div></div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="planet">
+          <div class="planet-shine"></div>
+          <div class="planet-land land-one"></div>
+          <div class="planet-land land-two"></div>
+        </div>
+
         <div class="satellite">
-          <div class="solar-panel panel-left"></div><div class="sat-body"><span></span><i></i></div><div class="solar-panel panel-right"></div>
+          <div class="solar-panel panel-left"></div>
+          <div class="sat-body"><span></span><i></i></div>
+          <div class="solar-panel panel-right"></div>
           <div class="antenna"></div>
         </div>
-        <span class="star star-one">✦</span><span class="star star-two">·</span><span class="star star-three">✧</span>
-        <div class="art-label"><span class="live-dot"></span> MISSION IN DEVELOPMENT</div>
+
+        <span class="star star-one">✦</span>
+        <span class="star star-two">·</span>
+        <span class="star star-three">✧</span>
+
+        <div class="art-label">
+          <span class="live-dot"></span>
+          MISSION IN DEVELOPMENT
+        </div>
       </div>
-      <div class="hero-bottom"><span>FIELD NOTES FROM OUR TEAM</span><span>01 / THE JOURNEY STARTS HERE</span></div>
+
+      <div class="hero-bottom">
+        <span>FIELD NOTES FROM OUR TEAM</span>
+        <span>01 / THE JOURNEY STARTS HERE</span>
+      </div>
     </section>
 
+    <!-- INTRO STRIP -->
     <section class="intro-strip">
       <p>How we are building the CanSat</p>
-      <p class="muted">It’s the questions we ask, the tests we run, and what we learn when things don’t go to plan.</p>
+      <p class="muted">
+        It’s the questions we ask, the tests we run,
+        and what we learn when things don’t go to plan.
+      </p>
     </section>
 
+    <!-- MISSIONS -->
     <section id="missions" class="section section-light">
       <div class="section-heading">
-        <div><p class="eyebrow">01 — THE PURPOSE</p><h2>Our mission, <em>explained.</em></h2></div>
-        <p>What are we investigating, why does it matter, and how will we find out?</p>
+        <div>
+          <p class="eyebrow">01 — THE PURPOSE</p>
+          <h2>Our mission, <em>explained.</em></h2>
+        </div>
+
+        <p>
+          What are we investigating, why does it matter,
+          and how will we find out?
+        </p>
       </div>
+
       <div class="mission-grid">
+
         <article class="mission-card primary-mission">
-          <div class="card-top"><span class="card-number">MISSION 01</span><span class="status status-required">PRIMARY</span></div>
+          <div class="card-top">
+            <span class="card-number">MISSION 01</span>
+            <span class="status status-required">PRIMARY</span>
+          </div>
+
           <div class="mission-icon">⌁</div>
+
           <h3>Required mission</h3>
-          <p>BlueShift will launch a CanSat weighing under 1 kg to approximately 1,000 m. It will demonstrate gyroscopic descent control and a ground-controlled parachute opening at 600 m, while measuring air temperature and pressure and transmitting data to the ground station every second. The CanSat must remain intact throughout the mission.</p>
-          <a class="text-link" href="#learn">Explore the science <span>↗</span></a>
+
+          <p>
+            BlueShift will launch a CanSat weighing under 1 kg to
+            approximately 1,000 m. It will demonstrate gyroscopic
+            descent control and a ground-controlled parachute opening
+            at 600 m, while measuring air temperature and pressure
+            and transmitting data to the ground station every second.
+            The CanSat must remain intact throughout the mission.
+          </p>
+
+          <a class="text-link" href="#learn">
+            Explore the science <span>↗</span>
+          </a>
         </article>
+
         <article class="mission-card secondary-mission">
-          <div class="card-top"><span class="card-number">MISSION 02</span><span class="status status-planning">TEAM-CHOSEN</span></div>
+          <div class="card-top">
+            <span class="card-number">MISSION 02</span>
+            <span class="status status-planning">TEAM-CHOSEN</span>
+          </div>
+
           <div class="mission-icon">⌖</div>
+
           <h3>Our secondary mission</h3>
-          <p>Our secondary mission investigates how atmospheric radiation varies with altitude and its potential effects on the reliability of low-cost commercial electronics. Using a Geiger counter, the CanSat will measure radiation levels throughout its descent while simultaneously monitoring memory integrity to detect potential errors known as Single Event Upsets (SEUs). Radiation measurements, altitude data and any detected memory anomalies will be recorded and analysed to explore possible relationships between radiation exposure and electronic reliability. This experiment aims to improve our understanding of the challenges of using commercial electronics in aerospace applications.</p>
-          <a class="text-link" href="#progress">Follow our decisions <span>↗</span></a>
+
+          <p>
+            Our secondary mission investigates how atmospheric
+            radiation varies with altitude and its potential effects
+            on the reliability of low-cost commercial electronics.
+            Using a Geiger counter, the CanSat will measure radiation
+            levels throughout its descent while simultaneously
+            monitoring memory integrity to detect potential errors
+            known as Single Event Upsets (SEUs). Radiation measurements,
+            altitude data and any detected memory anomalies will be
+            recorded and analysed to explore possible relationships
+            between radiation exposure and electronic reliability.
+            This experiment aims to improve our understanding of the
+            challenges of using commercial electronics in aerospace
+            applications.
+          </p>
+
+          <a class="text-link" href="#progress">
+            Follow our decisions <span>↗</span>
+          </a>
         </article>
+
       </div>
-      <div class="decision-note"><span class="note-icon">↳</span><p><strong>Why this mission?</strong> TBC</p></div>
+
+      <div class="decision-note">
+        <span class="note-icon">↳</span>
+        <p><strong>Why this mission?</strong> TBC</p>
+      </div>
     </section>
 
+    <!-- PROGRESS -->
     <section id="progress" class="section section-dark">
       <div class="section-heading">
-        <div><p class="eyebrow">02 — THE PROCESS</p><h2>What we've been working on</em></h2></div>
+        <div>
+          <p class="eyebrow">02 — THE PROCESS</p>
+          <h2>What we've been working on</h2>
+        </div>
       </div>
+
       <div class="filter-row" role="group" aria-label="Filter progress entries">
         <button class="filter-button active" data-filter="all">All updates</button>
         <button class="filter-button" data-filter="design">Design</button>
@@ -95,64 +210,284 @@
         <button class="filter-button" data-filter="build">Build & test</button>
         <button class="filter-button" data-filter="outreach">Outreach</button>
       </div>
+
       <div id="log-grid" class="log-grid">
+
         <article class="log-card" data-category="design">
-          <div class="log-visual visual-blue"><span>01</span><div class="wireframe">⌘</div></div>
-          <div class="log-content"><div class="log-meta"><span>DESIGN</span><span>ADD DATE</span></div><h3>From ideas to a mission plan</h3><p> TBC</p><div class="log-footer"><span>Contributor: add name</span><span>↗</span></div></div>
+          <div class="log-visual visual-blue">
+            <span>01</span>
+            <div class="wireframe">⌘</div>
+          </div>
+
+          <div class="log-content">
+            <div class="log-meta">
+              <span>DESIGN</span>
+              <span>ADD DATE</span>
+            </div>
+
+            <h3>From ideas to a mission plan</h3>
+            <p>TBC</p>
+
+            <div class="log-footer">
+              <span>Contributor: add name</span>
+              <span>↗</span>
+            </div>
+          </div>
         </article>
+
         <article class="log-card" data-category="science">
-          <div class="log-visual visual-violet"><span>02</span><div class="wireframe">∿</div></div>
-          <div class="log-content"><div class="log-meta"><span>SCIENCE</span><span>ADD DATE</span></div><h3>The science behind the data</h3><p> TBC </p><div class="log-footer"><span>Contributor: add name</span><span>↗</span></div></div>
+          <div class="log-visual visual-violet">
+            <span>02</span>
+            <div class="wireframe">∿</div>
+          </div>
+
+          <div class="log-content">
+            <div class="log-meta">
+              <span>SCIENCE</span>
+              <span>ADD DATE</span>
+            </div>
+
+            <h3>The science behind the data</h3>
+            <p>TBC</p>
+
+            <div class="log-footer">
+              <span>Contributor: add name</span>
+              <span>↗</span>
+            </div>
+          </div>
         </article>
+
         <article class="log-card" data-category="build">
-          <div class="log-visual visual-orange"><span>03</span><div class="wireframe">⌬</div></div>
-          <div class="log-content"><div class="log-meta"><span>BUILD & TEST</span><span>ADD DATE</span></div><h3>Our first test</h3><p>TBC </p><div class="log-footer"><span>Contributor: add name</span><span>↗</span></div></div>
+          <div class="log-visual visual-orange">
+            <span>03</span>
+            <div class="wireframe">⌬</div>
+          </div>
+
+          <div class="log-content">
+            <div class="log-meta">
+              <span>BUILD & TEST</span>
+              <span>ADD DATE</span>
+            </div>
+
+            <h3>Our first test</h3>
+            <p>TBC</p>
+
+            <div class="log-footer">
+              <span>Contributor: add name</span>
+              <span>↗</span>
+            </div>
+          </div>
         </article>
+
       </div>
     </section>
 
+    <!-- TEAM -->
     <section id="team" class="section section-light">
       <div class="section-heading">
-        <div><p class="eyebrow">03 — THE PEOPLE</p><h2>Meet the team</em></h2></div>
+        <div>
+          <p class="eyebrow">03 — THE PEOPLE</p>
+          <h2>Meet the team</h2>
+        </div>
       </div>
+
       <div class="team-grid">
-        <article class="team-card"><div class="avatar avatar-a">T1</div><p class="team-role">Lead</p><h3>Maysa</h3><p>Lead of the CANSAT team, currently looking into risk assessment of the Cansat.</p><div class="skill-tags"><span>Leadership</span><span>Electronics</span></div></article>
-        <article class="team-card"><div class="avatar avatar-b">T2</div><p class="team-role">Mech Lead</p><h3>Gergana</h3><p>Mechanical lead, currently working on materials for recovery and landing.</p><div class="skill-tags"><span>Design</span><span>Electronics</span></div></article>
-        <article class="team-card"><div class="avatar avatar-c">T3</div><p class="team-role">Programming Lead</p><h3>Ivan</h3><p>Programming lead, currently working on deciding on a  microcontroller</p><div class="skill-tags"><span>Programming</span><span>Electronics</span></div></article>
-        <article class="team-card"><div class="avatar avatar-d">T4</div><p class="team-role">Mech Team</p><h3>Arthur</h3><p> Currently working on materials on the CanSat.</p><div class="skill-tags"><span>Design</span><span>Electronics</span></div></article>
-        <article class="team-card"><div class="avatar avatar-e">T5</div><p class="team-role">Mech Team</p><h3>Cas</h3><p> Currently  researching into sensors of temperature and air pressure</p><div class="skill-tags"><span>Design</span></div></article>   
-        <article class="team-card"><div class="avatar avatar-f">T6</div><p class="team-role">Programming Team</p><h3>Divija</h3><p> researching into testing plans & programming tests + microcontroller research with Ivan</p><div class="skill-tags"><span>Programming</span></div></article>
-      </div>
-  
 
+        <article class="team-card">
+          <div class="avatar avatar-a">T1</div>
+          <p class="team-role">Lead</p>
+          <h3>Maysa</h3>
+          <p>Lead of the CANSAT team, currently looking into risk assessment of the Cansat.</p>
+          <div class="skill-tags">
+            <span>Leadership</span>
+            <span>Electronics</span>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <div class="avatar avatar-b">T2</div>
+          <p class="team-role">Mech Lead</p>
+          <h3>Gergana</h3>
+          <p>Mechanical lead, currently working on materials for recovery and landing.</p>
+          <div class="skill-tags">
+            <span>Design</span>
+            <span>Electronics</span>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <div class="avatar avatar-c">T3</div>
+          <p class="team-role">Programming Lead</p>
+          <h3>Ivan</h3>
+          <p>Programming lead, currently working on deciding on a microcontroller.</p>
+          <div class="skill-tags">
+            <span>Programming</span>
+            <span>Electronics</span>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <div class="avatar avatar-d">T4</div>
+          <p class="team-role">Mech Team</p>
+          <h3>Arthur</h3>
+          <p>Currently working on materials for the CanSat.</p>
+          <div class="skill-tags">
+            <span>Design</span>
+            <span>Electronics</span>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <div class="avatar avatar-e">T5</div>
+          <p class="team-role">Mech Team</p>
+          <h3>Cas</h3>
+          <p>Currently researching temperature and air pressure sensors.</p>
+          <div class="skill-tags">
+            <span>Design</span>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <div class="avatar avatar-f">T6</div>
+          <p class="team-role">Programming Team</p>
+          <h3>Divija</h3>
+          <p>Researching testing plans, programming tests and microcontroller options with Ivan.</p>
+          <div class="skill-tags">
+            <span>Programming</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- LEARNING HUB -->
     <section id="learn" class="section learn-section">
-      <div class="learn-copy"><p class="eyebrow">04 — OPEN THE LAB</p><h2><p>CanSat brings together physics, electronics, coding, design and data. Our learning hub will make those ideas accessible — whether you’re meeting them for the first time or exploring the details.</p><a class="button button-primary" href="#learning-cards">Explore learning topics <span>↗</span></a></div>
-      <div class="learn-orb"><div class="orb-ring"></div><div class="orb-core">?</div><span class="orb-label label-a">PHYSICS</span><span class="orb-label label-b">DATA</span><span class="orb-label label-c">DESIGN</span></div>
+
+      <div class="learn-copy">
+        <p class="eyebrow">04 — OPEN THE LAB</p>
+
+        <h2>
+          CanSat brings together physics, electronics, coding,
+          design and data.
+        </h2>
+
+        <p class="learn-intro">
+          Our learning hub will make those ideas accessible —
+          whether you’re meeting them for the first time or
+          exploring the details.
+        </p>
+
+        <a class="button button-primary" href="#learning-cards">
+          Explore learning topics <span>↗</span>
+        </a>
+      </div>
+
+      <div class="learn-orb">
+        <div class="orb-ring"></div>
+        <div class="orb-core">?</div>
+        <span class="orb-label label-a">PHYSICS</span>
+        <span class="orb-label label-b">DATA</span>
+        <span class="orb-label label-c">DESIGN</span>
+      </div>
+
       <div id="learning-cards" class="learning-cards">
-        <article><span>01 / PHYSICS</span><h3>What changes with altitude?</h3><p>Explain pressure, temperature and the atmosphere in accessible language.</p><a href="#outreach">Add explainer ↗</a></article>
-        <article><span>02 / ENGINEERING</span><h3>How do sensors work?</h3><p>Show how components turn real-world measurements into data.</p><a href="#outreach">Add explainer ↗</a></article>
-        <article><span>03 / DATA</span><h3>From readings to results</h3><p>Teach visitors to read graphs, spot patterns and question uncertainty.</p><a href="#outreach">Add explainer ↗</a></article>
+
+        <article>
+          <span>01 / PHYSICS</span>
+          <h3>What changes with altitude?</h3>
+          <p>Explain pressure, temperature and the atmosphere in accessible language.</p>
+          <a href="#outreach">Add explainer ↗</a>
+        </article>
+
+        <article>
+          <span>02 / ENGINEERING</span>
+          <h3>How do sensors work?</h3>
+          <p>Show how components turn real-world measurements into data.</p>
+          <a href="#outreach">Add explainer ↗</a>
+        </article>
+
+        <article>
+          <span>03 / DATA</span>
+          <h3>From readings to results</h3>
+          <p>Teach visitors to read graphs, spot patterns and question uncertainty.</p>
+          <a href="#outreach">Add explainer ↗</a>
+        </article>
+
       </div>
     </section>
 
+    <!-- OUTREACH -->
     <section id="outreach" class="section section-light outreach-section">
+
       <div class="section-heading">
-        <div><p class="eyebrow">05 — BEYOND THE BUILD</p><h2> Our Outreach pages</em></h2></div>
+        <div>
+          <p class="eyebrow">05 — BEYOND THE BUILD</p>
+          <h2>Our Outreach pages</h2>
+        </div>
       </div>
+
       <div class="outreach-grid">
-        <article class="outreach-panel"><span class="panel-icon">↗</span><h3>Follow our updates</h3><p>Find our project posts, short videos and behind-the-scenes content.</p><div class="social-links"><a href="https://www.instagram.com/blueshiftcansat/" data-placeholder-link>Instagram ↗</a><a href="https://www.instagram.com/blueshiftcansat/" data-placeholder-link>LinkedIn ↗</a><a href="https://www.tiktok.com/@blueshiftcansat?is_from_webapp=1&sender_device=pc" data-placeholder-link>TikTok↗</a></div><small>Replace these placeholder links with your real team accounts.</small></article>
-        <article class="outreach-panel"><span class="panel-icon">◎</span><h3>Outreach in action</h3><p>Add details of school visits, demonstrations, presentations or conversations with other students.</p><div class="outreach-stats"><div><strong>00</strong><span>Events</span></div><div><strong>00</strong><span>People reached</span></div><div><strong>00</strong><span>Resources made</span></div></div><small>Update these figures only when you have real evidence.</small></article>
+
+        <article class="outreach-panel">
+          <span class="panel-icon">↗</span>
+          <h3>Follow our updates</h3>
+          <p>Find our project posts, short videos and behind-the-scenes content.</p>
+
+          <div class="social-links">
+            <a href="https://www.instagram.com/blueshiftcansat/" data-placeholder-link>Instagram ↗</a>
+            <a href="https://www.instagram.com/blueshiftcansat/" data-placeholder-link>LinkedIn ↗</a>
+            <a href="https://www.tiktok.com/@blueshiftcansat?is_from_webapp=1&sender_device=pc" data-placeholder-link>TikTok ↗</a>
+          </div>
+
+          <small>Replace these placeholder links with your real team accounts.</small>
+        </article>
+
+        <article class="outreach-panel">
+          <span class="panel-icon">◎</span>
+          <h3>Outreach in action</h3>
+          <p>Add details of school visits, demonstrations, presentations or conversations with other students.</p>
+
+          <div class="outreach-stats">
+            <div><strong>00</strong><span>Events</span></div>
+            <div><strong>00</strong><span>People reached</span></div>
+            <div><strong>00</strong><span>Resources made</span></div>
+          </div>
+
+          <small>Update these figures only when you have real evidence.</small>
+        </article>
+
       </div>
-      <div class="contact-banner"><div><p class="eyebrow">HAVE A QUESTION?</p><h3>Interested in CanSat?</h3><p>Invite people to explore the learning hub or contact the team through an approved school/team channel.</p></div><a class="button button-dark" href="mailto:blueshiftcansat@gmail.com">Contact the team ↗</a></div>
-                                                                                                                                                                                                                              
-                                                                                                                                                                                                                             
+
+      <div class="contact-banner">
+        <div>
+          <p class="eyebrow">HAVE A QUESTION?</p>
+          <h3>Interested in CanSat?</h3>
+          <p>Invite people to explore the learning hub or contact the team through an approved school/team channel.</p>
+        </div>
+
+        <a class="button button-dark" href="mailto:blueshiftcansat@gmail.com">
+          Contact the team ↗
+        </a>
+      </div>
+
     </section>
+
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
-    <a class="brand footer-brand" href="#home"><span class="brand-mark">◉</span><span><strong>BLUE SHIFT</strong><small>STUDENT ENGINEERING PROJECT</small></span></a>
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">◉</span>
+      <span>
+        <strong>BLUE SHIFT</strong>
+        <small>STUDENT ENGINEERING PROJECT</small>
+      </span>
+    </a>
+
     <p>Follow us as we attempt the CANSAT competition.</p>
+
     <a href="#home" class="back-top">Back to top ↑</a>
   </footer>
+
 </body>
 </html>
